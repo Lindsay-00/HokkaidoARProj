@@ -1839,9 +1839,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1133051659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da3a5d72368b444a9de40bc548f3334, type: 3}
+  m_Script: {fileID: 11500000, guid: b1d4d6a99d9594274aaa7095bfacde87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  url: https://palanar.app/v2/ar_contents/06e5adf531fa5466
 --- !u!4 &1133051661
 Transform:
   m_ObjectHideFlags: 0
@@ -2430,9 +2431,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1708319793}
-        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1133051660}
+        m_TargetAssemblyTypeName: OpenOutsideAR, Assembly-CSharp
+        m_MethodName: ClickOpenButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
