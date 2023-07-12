@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: UI
   m_TableCollectionNameGuidString: 8984f93ff57244969ba25e6656bca414
-  m_Entries: []
+  m_Entries:
+  - m_Id: 240609386496
+    m_Key: Country Name
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

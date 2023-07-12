@@ -18,7 +18,13 @@ MonoBehaviour:
   m_GUID: 12fcca37f291f4f40827455b778f83c5
   m_SerializeEntries:
   - m_GUID: 61cfe93ea91214b678ab06b97e9e54f9
-    m_Address: New Table_zh-Hans
+    m_Address: UI_zh-Hans
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13a160a1572894213b9505d9f4084514
+    m_Address: StringExampleTable_zh-Hans
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-zh-Hans

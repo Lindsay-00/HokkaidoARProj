@@ -454,10 +454,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Former Hokkaido Government Building
+  m_text: "\u8D64\u30EC\u30F3\u30AC\u5E81\u820E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -992,10 +992,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Maruyama Park
+  m_text: "\u4E2D\u5CF6\u516C\u5712"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1127,10 +1127,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Susukino
+  m_text: "\u3059\u3059\u304D\u306E\u4EA4\u5DEE\u70B9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9224ec167ac452aa3e1a7e0a757de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ARScene
+  sceneName: ARScene4
 --- !u!4 &582041566
 Transform:
   m_ObjectHideFlags: 0
@@ -1398,10 +1398,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Snow Sculptures
+  m_text: "\u6642\u8A08\u53F0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1609,6 +1609,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660514714}
   m_CullTransparentMesh: 1
+--- !u!1 &756197918
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 756197920}
+  - component: {fileID: 756197919}
+  m_Layer: 0
+  m_Name: _FungusState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &756197919
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756197918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 0}
+--- !u!4 &756197920
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756197918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798612109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,14 +1712,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I am a stunning symbol of winter wonder, an icy spectacle to behold. Sculpted
-    with care and precision, my beauty never gets old. People gather to admire my
-    intricate designs, as I sparkle in the sunlight's glow. In the Snow Festival,
-    I shine bright, capturing the hearts of all who know. What am I in Sapporo's
-    snowy delight?
+  m_text: "\u6B74\u53F2\u7684\u306A\u5EFA\u7269\u3067\u3042\u308A\u3001\u672D\u5E4C\u4E00\u306E\u6709\u540D\u89B3\u5149\u540D\u6240\u3067\u3059\u3002\u79C1\u306F\u3044\u3064\u3082\u5909\u308F\u3089\u306A\u3044\u30EC\u30C8\u30ED\u306A\u96F0\u56F2\u6C17\u3067\u672D\u5E4C\u306E\u6642\u9593\u3092\u3086\u3063\u304F\u308A\u6570\u3048\u3066\u3044\u307E\u3059\u3002\u3055\u3066\u3001\u79C1\u306F\u8AB0\u3067\u3057\u3087\u3046"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2699,10 +2740,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mount Moiwa
+  m_text: "\u85FB\u5CA9\u5C71"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3430,12 +3471,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Odori Park
-
-'
+  m_text: "\u5927\u901A\u516C\u5712"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

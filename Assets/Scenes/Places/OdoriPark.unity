@@ -610,9 +610,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 897973812}
-        m_TargetAssemblyTypeName: OpenUrl, Assembly-CSharp
-        m_MethodName: ClickOpenButton
+      - m_Target: {fileID: 2051672128}
+        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -718,10 +718,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Maruyama Park
+  m_text: "\u4E2D\u5CF6\u516C\u5712"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1126,6 +1126,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313123169}
   m_CullTransparentMesh: 1
+--- !u!1 &581428030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581428032}
+  - component: {fileID: 581428031}
+  m_Layer: 0
+  m_Name: _FungusState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &581428031
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581428030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 0}
+--- !u!4 &581428032
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581428030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583682629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,12 +1321,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Odori Park
-
-'
+  m_text: "\u5927\u901A\u308A\u516C\u5712"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1413,10 +1456,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mount Moiwa
+  m_text: "\u85FB\u5CA9\u5C71"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1629,10 +1672,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Snow Sculptures
+  m_text: "\u6642\u8A08\u53F0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2001,7 +2044,7 @@ RectTransform:
   m_GameObject: {fileID: 1309481064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1591020291}
@@ -2032,13 +2075,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I am a symbol of Sapporo, a place where beauty and nature intertwine. In
-    my sprawling gardens, you'll find vibrant flowers in every hue. My clock tower
-    stands tall, a historic landmark for all to view. Can you guess the name of this
-    delightful place in Sapporo?
+  m_text: "\u5E83\u5927\u306A\u6577\u5730\u3092\u8A87\u308A\u3001\u56DB\u5B63\u6298\u3005\u306E\u7F8E\u3057\u3044\u666F\u89B3\u304C\u697D\u3057\u3081\u307E\u3059\u3002\u79C1\u306F\u672D\u5E4C\u306E\u61A9\u3044\u306E\u5834\u6240\u3067\u3042\u308A\u3001\u6642\u8A08\u3001\u304A\u9152\u3001\u82B1\u3001\u81EA\u7136\u304C\u8272\u3069\u304A\u308A\u3068\u3053\u308D\u3002\u663C\u306B\u306F\u5BB6\u65CF\u3067\u30D4\u30AF\u30CB\u30C3\u30AF\n\u591C\u306B\u306F\u30B9\u30B1\u30FC\u30C8\u3084\u30B5\u30A4\u30D5\u30A1\u30FC\u304C\u30029\u6642\u534A\u307E\u3067\u5149\u308B\u8155\u6642\u8A08\u3082\u6301\u3063\u3066\u3044\u307E\u3059\u3002\u3055\u3066\u79C1\u306F\u8AB0\u3067\u3057\u3087\u3046\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2170,10 +2210,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Former Hokkaido Government Building
+  m_text: "\u8D64\u30EC\u30F3\u30AC\u5E81\u820E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2305,10 +2345,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Susukino
+  m_text: "\u3059\u3059\u304D\u306E\u4EA4\u5DEE\u70B9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3189,7 +3229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9224ec167ac452aa3e1a7e0a757de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ARScene
+  sceneName: ARScene4
 --- !u!4 &2051672129
 Transform:
   m_ObjectHideFlags: 0

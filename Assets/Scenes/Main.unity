@@ -181,10 +181,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hi, welcome to Scavenger Hunt X AR
+  m_text: 'Welcome to Scavenger Hunt X AR
 
-    Testing dshfjh kdhsfkajshf kdjfhskdfhkssdf
-    dfhsjdfhjs dfhskdfh fhsdjfh fhsdjfhsdjfh dfhkdsfhkdsh fhsdfhkdfhjdfhjdhfksdhfksdhfkdhfsdfhddhjfdshfksdhfksdhfksdhfkshfskhfskhfjshfjsdhfsdhfdshfksdhfsdhfkj'
+    Click "I''m ready for the puzzles"
+    button when you are ready to go!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9224ec167ac452aa3e1a7e0a757de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ScrollView
+  sceneName: select
 --- !u!1 &1092969811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,12 +1158,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I''m ready for
-
-    the puzzles'
+  m_text: "\u30EA\u30B9\u30C8\u3078"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1299,8 +1297,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
+  m_sharedMaterial: {fileID: -2709363155369917575, guid: a138d2265e9d04a8795e7494a1844582, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
