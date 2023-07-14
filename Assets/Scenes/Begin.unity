@@ -171,7 +171,6 @@ GameObject:
   - component: {fileID: 35861619}
   - component: {fileID: 35861618}
   - component: {fileID: 35861617}
-  - component: {fileID: 35861651}
   - component: {fileID: 35861650}
   m_Layer: 0
   m_Name: Flowchart
@@ -207,7 +206,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 35861612}
   selectedCommands:
-  - {fileID: 35861650}
+  - {fileID: 35861637}
   variables: []
   description: 
   stepPause: 0
@@ -280,7 +279,6 @@ MonoBehaviour:
   - {fileID: 35861649}
   - {fileID: 35861648}
   - {fileID: 35861647}
-  - {fileID: 35861651}
   - {fileID: 35861646}
   - {fileID: 35861645}
   - {fileID: 35861644}
@@ -1340,23 +1338,6 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 1515024138}
   methodName: changeScene
-  delay: 0
---- !u!114 &35861651
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35861609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  targetObject: {fileID: 0}
-  methodName: 
   delay: 0
 --- !u!1 &68632811
 GameObject:
