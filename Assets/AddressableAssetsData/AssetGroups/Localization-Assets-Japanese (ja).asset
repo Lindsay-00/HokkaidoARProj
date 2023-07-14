@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: f75e7746975d347ebb78f6ebc13ac8a7
-  m_SerializeEntries:
-  - m_GUID: 40188ac60a3a4433bb5e89f0c8e794f4
-    m_Address: Flag_of_Japan.svg
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ja
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 07c034e9a70f74d8a94c80e13892f18b, type: 2}
   m_SchemaSet:

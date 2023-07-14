@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 2bf7e43ebe53b4f3c8b50638ad6a441e
-  m_SerializeEntries:
-  - m_GUID: 4fe39fb52eed54f6db42bb3dde14753a
-    m_Address: Flag_of_France.svg
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 07c034e9a70f74d8a94c80e13892f18b, type: 2}
   m_SchemaSet:

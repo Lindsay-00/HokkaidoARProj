@@ -353,10 +353,16 @@ namespace Fungus
             {
                 sizeTween = LeanTween.value(camera.orthographicSize, targetSize, duration)
                     .setEase(sizeTweenType)
-                    .setOnUpdate(x => camera.orthographicSize = x)
+                    .setOnUpdate(x => 
+                    {
+                        if (camera != null)
+                        {
+                            camera.orthographicSize = x;
+                        }
+                    })
                     .setOnComplete(() =>
                     {
-                        camera.orthographicSize = targetSize;
+                        if (camera != null) camera.orthographicSize = targetSize;
                         if (arriveAction != null) arriveAction();
                         sizeTween = null;
                     });

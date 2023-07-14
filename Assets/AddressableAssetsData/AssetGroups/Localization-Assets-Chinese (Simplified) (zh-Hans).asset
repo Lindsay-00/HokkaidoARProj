@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 318a1c7b1d2224224897b75c087ed7be
-  m_SerializeEntries:
-  - m_GUID: 7928295b6912a4d488786e4a1d08b02c
-    m_Address: Flag_of_the_People's_Republic_of_China.svg
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-zh-Hans
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 07c034e9a70f74d8a94c80e13892f18b, type: 2}
   m_SchemaSet:
