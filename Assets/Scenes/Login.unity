@@ -385,6 +385,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378804593}
   m_CullTransparentMesh: 0
+--- !u!1 &565913827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 565913829}
+  - component: {fileID: 565913828}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &565913828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565913827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 4900000, guid: 7e93597f43b9d4b6aa3e78b0dfa5f6cb, type: 3}
+--- !u!4 &565913829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565913827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &825156959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,8 +1266,6 @@ GameObject:
   - component: {fileID: 1469897091}
   - component: {fileID: 1469897090}
   - component: {fileID: 1469897089}
-  - component: {fileID: 1469897088}
-  - component: {fileID: 1469897087}
   - component: {fileID: 1469897086}
   - component: {fileID: 1469897085}
   - component: {fileID: 1469897084}
@@ -1233,6 +1277,8 @@ GameObject:
   - component: {fileID: 1469897078}
   - component: {fileID: 1469897077}
   - component: {fileID: 1469897097}
+  - component: {fileID: 1469897098}
+  - component: {fileID: 1469897099}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1456,48 +1502,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1469897084}
   suppressAllAutoSelections: 0
---- !u!114 &1469897087
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469897076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1489577521}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &1469897088
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469897076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1489577521}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1469897089
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1566,9 +1570,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1469897090}
   commandList:
-  - {fileID: 1469897088}
+  - {fileID: 1469897099}
+  - {fileID: 1469897098}
   - {fileID: 1469897089}
-  - {fileID: 1469897087}
   suppressAllAutoSelections: 0
 --- !u!114 &1469897092
 MonoBehaviour:
@@ -1647,7 +1651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 454.85068, y: 183.5}
+  scrollPos: {x: 621.5, y: 302.5}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 381
@@ -1659,9 +1663,8 @@ MonoBehaviour:
     width: 1243
     height: 1069
   selectedBlocks:
-  - {fileID: 1469897094}
-  selectedCommands:
-  - {fileID: 1469897079}
+  - {fileID: 1469897091}
+  selectedCommands: []
   variables:
   - {fileID: 1469897093}
   description: 
@@ -1669,7 +1672,7 @@ MonoBehaviour:
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: Flowchart
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -1708,6 +1711,51 @@ MonoBehaviour:
     stringVal: ScrollView
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1469897098
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469897076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  storyText: Please enter your name
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1469897099
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469897076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: EN
+  languageCodeOLD: 
 --- !u!1 &1477059796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6728,7 +6776,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 6691b047f10934720968e9f83cf13ebe, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

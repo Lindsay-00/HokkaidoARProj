@@ -1,0 +1,6 @@
+Key,Description,EN,JA
+SETTEXT.Flowchart.31,,
+WRITE.Flowchart.25,,Nice to meet you {$PlayerName}!,初めまして{$PlayerName}!
+SAY.Flowchart.29.,,"Hi {$PlayerName}, let's solve the puzzles and save Snow miku!","こんにちは、{$PlayerName}さん、パズルを解いて雪ミクを救いましょう！"
+SAY.Flowchart.33.,,Please enter your name,名前を入力してください。
+WRITE.Flowchart.6,,Please enter your name,名前を入力してください。

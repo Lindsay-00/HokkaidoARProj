@@ -1,0 +1,31 @@
+Key,Description,En,Ja
+SAY.Flowchart.5.,,"As you regain consciousness, you find yourself surrounded by the untamed wilderness, with no recollection of how you ended up here. \n",意識を取り戻すと、手つかずの荒野に囲まれていることに気づきます。どうしてここにいるのか全く覚えがありません。
+SAY.Flowchart.7.,,"In the midst of the wilderness, a faint sound pierces through the stillness, catching your attention.",荒野の中、静寂を貫くかすかな音が耳に入り、あなたの注意を引きます。
+SAY.Flowchart.8.Snow Miku,,"Hello there, what brings you to {color=Green} Mount Moiwa {/color} all alone?",こんにちは。一人で{color=Green}藻岩山{/color}に来たのは何のご用件ですか？
+SAY.Flowchart.11.Snow Miku,,I'm Snow miku.\n,私は雪ミクです。
+SAY.Flowchart.108.Snow Miku,,Are you lost?\n,迷子になったんですか？
+MENU.Flowchart.74,,"""Yes, please help me. I wanna go home.""",はい、お手伝いいたします。おうちに帰りたいんですね。
+SAY.Flowchart.38.Snow Miku,,I know the way out from this place. I can guide you.,この場所からの脱出方法を知っています。あなたを案内することができます。
+SAY.Flowchart.109.Snow Miku,,Follow me!,私についてきてください！
+SAY.Flowchart.46.Snow Miku,,Now remember to keep quiet.,今、静かにしておいてください。
+SAY.Flowchart.110.Snow Miku,,The last thing you want in this part of the woods is to run into a...,この森のこの部分で遭遇したくない最後のものは、...
+SAY.Flowchart.50.Snow Miku,,Nooooooo!,いいえぇぇぇぇ！
+SAY.Flowchart.111.Snow Miku,,Run! I'll provide a distraction!,逃げてください！私が気を引くから！
+SAY.Flowchart.53.Badly Drawn Bear,,RAAAAAARRRRRR!,ロオオオオオオオオオオオ！
+SAY.Flowchart.54.,,"And so, in a tragic twist of fate, the bear seizes Snow Miku.",そして、運命の悲劇的な展開の中で、ベアは雪ミクを捕まえます。
+SAY.Flowchart.112.,,"However, her courageous act was not in vain, for she valiantly attempted to shield and protect you, allowing you a chance to escape from the bear's clutches.",しかし、彼女の勇敢な行動は無駄ではありませんでした。{wc}彼女は勇敢にあなたを庇い、保護しようとしました。それによって、あなたはベアの餌食から逃れるチャンスを得ることができました。
+SAY.Flowchart.79.Hatsune Miku,,Oh no! The bear took Snow miku away!,ああ、いけない！ベアが雪ミクを連れ去ってしまいました！
+SAY.Flowchart.113.Hatsune Miku,,Could you help me save Snow miku from the bear?,雪ミクをベアから救っていただけますか？
+MENU.Flowchart.115,,Sure I'd love to! But how...,もちろんです！でも、どうすればいいのでしょうか...？
+MENU.Flowchart.116,,No I don't wanna risk my life.,いいえ、自分の命を危険にさらしたくありません。
+SAY.Flowchart.84.,,Please select your language.\n言語を選択してください。,
+MENU.Flowchart.82,,English,
+MENU.Flowchart.83,,日本語,
+SETTEXT.Flowchart.106,,日本語,
+SETTEXT.Flowchart.107,,English,
+SETTEXT.Flowchart.104,,English,
+SETTEXT.Flowchart.105,,日本語,
+CHARACTER.Character Name,,Character Name,キャラクター名
+CHARACTER.Hatsune Miku,,Hatsune Miku,初音ミク
+CHARACTER.Snow Miku,,Snow Miku,雪ミク
+CHARACTER.Badly Drawn Bear,,Badly Drawn Bear,下手に描かれたベア
