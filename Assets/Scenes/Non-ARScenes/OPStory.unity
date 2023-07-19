@@ -967,7 +967,7 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: soundEffect
       value: 
-      objectReference: {fileID: 8300000, guid: 0dc7e509ace954462bc8ab20fcb68d60, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e8286c2463884bbaa62cddbee8c7cb3, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: typingSound
       value: 
@@ -2048,8 +2048,9 @@ MonoBehaviour:
     width: 1939.0176
     height: 2009.5223
   selectedBlocks:
-  - {fileID: 977736073}
-  selectedCommands: []
+  - {fileID: 977736010}
+  selectedCommands:
+  - {fileID: 977736087}
   variables:
   - {fileID: 977736074}
   description: 'This is an example of a short Visual Novel / RPG
@@ -2541,7 +2542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 2
   key: Lang
   value: En
 --- !u!114 &977736075
@@ -4491,7 +4492,7 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: soundEffect
       value: 
-      objectReference: {fileID: 8300000, guid: 0dc7e509ace954462bc8ab20fcb68d60, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e8286c2463884bbaa62cddbee8c7cb3, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: typingSound
       value: 
