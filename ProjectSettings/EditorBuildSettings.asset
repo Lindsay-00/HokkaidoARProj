@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Non-ARScenes/Riddles.unity
     guid: 1cd751c8ff12647c3b9f4f836ce140f8
   - enabled: 1
+    path: Assets/Scenes/Non-ARScenes/RiddleDetail.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/Scenes/Begin.unity
     guid: bddfdebca38fd4b5c8c33f8f71489a72
   - enabled: 1
@@ -30,25 +33,19 @@ EditorBuildSettings:
     path: Assets/Scenes/select.unity
     guid: 8c3bbc3689af740638635904f8d906c8
   - enabled: 1
-    path: Assets/Scenes/ScrollView.unity
-    guid: 73ef0b2607f44443ba38539218bdab08
-  - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/RiddleDetail.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/Places/GovBuilding.unity
+    path: Assets/Scenes/Places/GovBuilding.unity
     guid: 2082491372ee34842a55a383caf8581f
   - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/Places/MaruyamaPark.unity
+    path: Assets/Scenes/Places/MaruyamaPark.unity
     guid: ed16caac578bc4c82b98d5ac89d75fbb
   - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/Places/SnowSculptures.unity
+    path: Assets/Scenes/Places/SnowSculptures.unity
     guid: 52fcebf8469b1420ca806479737e2851
   - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/Places/Susukino.unity
+    path: Assets/Scenes/Places/Susukino.unity
     guid: 59e7b1a55ba5745338146245be1768b4
   - enabled: 1
-    path: Assets/Scenes/Non-ARScenes/Places/MountMoiwa.unity
+    path: Assets/Scenes/Places/MountMoiwa.unity
     guid: 03447b85ffed84f5daf84c7fcf8b9e4b
   - enabled: 1
     path: Assets/Scenes/ARScenes/ARScene.unity
@@ -62,18 +59,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARScenes/ARScene4.unity
     guid: ee07543ce59ac4b2782f3ad678093cb5
-  - enabled: 1
-    path: Assets/FungusExamples/FungusLua/Store/SceneA.unity
-    guid: f4eca518d1c49488a8afce9b13a477fd
-  - enabled: 1
-    path: Assets/FungusExamples/FungusLua/Store/SceneB.unity
-    guid: 691037dee79024d3386409bf60f0ef43
-  - enabled: 1
-    path: Assets/FungusExamples/FungusTown/FungusTown.unity
-    guid: 9cb2c3bd6962d487dba382e8e35f188c
-  - enabled: 1
-    path: Assets/FungusExamples/FungusTown/New Scene.unity
-    guid: 94d66503db8e44854843a86ff5c864cc
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: db8a0ebde4e17477f9b1edc36811367b, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c290f44a4eaa94261bf493fc93d3e14b, type: 2}

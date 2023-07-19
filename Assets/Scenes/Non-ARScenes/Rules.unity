@@ -1267,8 +1267,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1843273903}
-  selectedCommands:
-  - {fileID: 1843273902}
+  selectedCommands: []
   variables:
   - {fileID: 1843273882}
   description: 
@@ -2870,7 +2869,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Let's start solving the riddles!
   description: 
-  targetBlock: {fileID: 1843273874}
+  targetBlock: {fileID: 1843273903}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2969,7 +2968,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1843273902
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2988,7 +2987,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1843273903
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3002,7 +3001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52
     y: 137
-    width: 111
+    width: 113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
